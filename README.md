@@ -13,10 +13,10 @@ Desarrollar un sistema de control escolar integral que permita realizar operacio
 
 ## Equipo de Desarrollo
 1. [Aguilar Díaz Axel Raúl] - Secretario Académico y Home
-2. [Gutierrez Luis Edgar Reymundo] - Alumnos
-3. [Brigido Cerqueda Liliana Itzel] - Profesores
-4. [Otero López Andrik Axel] - Administrativos (A y B)
-5. [Hernández reyes Cecilia] - Director de Carrera
+2. [Brigido Cerqueda Liliana Itzel] - Profesores
+3. [Gutierrez Luis Edgar Reymundo] - Alumnos
+4. [Hernández reyes Cecilia] - Director de Carrera
+5. [Otero López Andrik Axel] - Administrativos (A y B)  
 
 ## Sprints del Proyecto
 * Número de Sprints planificados: 3 Sprints.
