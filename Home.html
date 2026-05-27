@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portal del Alumno</title>
+
+<style>
+
+:root{
+    --azulOscuro:#0f3d73;
+    --azul:#1e6fb9;
+    --azulClaro:#eaf4ff;
+    --blanco:#ffffff;
+    --gris:#6b7280;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:linear-gradient(to bottom,#f4f8ff,#eaf4ff);
+}
+
+header{
+    background:linear-gradient(90deg,var(--azulOscuro),var(--azul));
+    padding:20px;
+    color:white;
+}
+
+.header-container{
+    max-width:1200px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:12px;
+    flex-wrap:wrap;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    background:rgba(255,255,255,0.15);
+    padding:10px 15px;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    background:rgba(255,255,255,0.3);
+}
+
+.hero{
+    text-align:center;
+    padding:50px 20px 20px;
+}
+
+.hero h1{
+    color:var(--azulOscuro);
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.hero p{
+    color:var(--gris);
+    font-size:18px;
+}
+
+.cards{
+    max-width:1200px;
+    margin:40px auto;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:25px;
+    padding:20px;
+}
+
+.card{
+    background:white;
+    border-radius:18px;
+    padding:25px;
+    box-shadow:0 10px 20px rgba(0,0,0,0.08);
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+.card h2{
+    color:var(--azulOscuro);
+    margin-bottom:15px;
+}
+
+.card p{
+    color:var(--gris);
+    line-height:1.6;
+    margin-bottom:20px;
+}
+
+.btn{
+    text-decoration:none;
+    background:var(--azul);
+    color:white;
+    padding:12px;
+    border-radius:10px;
+    text-align:center;
+    font-weight:bold;
+}
+
+.btn:hover{
+    background:var(--azulOscuro);
+}
+
+footer{
+    background:#0b2447;
+    color:white;
+    padding:40px 20px 20px;
+}
+
+.footer-container{
+    max-width:1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+.footer-container h3{
+    margin-bottom:10px;
+}
+
+.footer-container p{
+    color:#d1d5db;
+    line-height:1.6;
+}
+
+.copy{
+    text-align:center;
+    margin-top:20px;
+    border-top:1px solid rgba(255,255,255,0.2);
+    padding-top:15px;
+}
+
+@media(max-width:900px){
+    .cards{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
+
+@media(max-width:600px){
+
+    .cards{
+        grid-template-columns:1fr;
+    }
+
+    .hero h1{
+        font-size:30px;
+    }
+
+}
+
+</style>
+
+</head>
+<body>
+
+<header>
+
+<div class="header-container">
+
+<div class="logo">
+Portal del Alumno
+</div>
+<nav>
+<ul>
+<li><a href="inscripcciones.html">Inscripciones</a></li>
+<li><a href="ReInscripcciones.html">Reinscripciones</a></li>
+<li><a href="Bajas.html">Bajas</a></li>
+<li><a href="CambiosCarrera.html">Cambios Carrera</a></li>
+<li><a href="PagosAlumnos.html">Pagos</a></li>
+<li><a href="EvaluacionesProfesores.html">Evaluaciones</a></li>
+</ul>
+</nav>
+
+</div>
+
+</header>
+
+<section class="hero">
+
+<h1>Bienvenido al Portal del Alumno</h1>
+
+<p>
+Consulta y accede a los principales servicios escolares desde un solo lugar.
+</p>
+
+</section>
+
+<section class="cards">
+
+<div class="card">
+<h2>Inscripciones</h2>
+<p>Consulta el proceso de inscripción para alumnos de nuevo ingreso.</p>
+<a href="inscripcciones.html" class="btn">Ingresar</a>
+</div>
+
+<div class="card">
+<h2>Reinscripciones</h2>
+<p>Continúa tu proceso académico para el siguiente periodo escolar.</p>
+<a href="ReInscripcciones.html" class="btn">Ingresar</a>
+</div>
+
+<div class="card">
+<h2>Bajas</h2>
+<p>Consulta información referente a bajas temporales o definitivas.</p>
+<a href="Bajas.html" class="btn">Ingresar</a>
+</div>
+
+<div class="card">
+<h2>Cambios de Carrera</h2>
+<p>Conoce los requisitos para solicitar un cambio de carrera.</p>
+<a href="CambiosCarrera.html" class="btn">Ingresar</a>
+</div>
+
+<div class="card">
+<h2>Pagos</h2>
+<p>Consulta información relacionada con pagos escolares y referencias.</p>
+<a href="PagosAlumnos.html" class="btn">Ingresar</a>
+</div>
+
+<div class="card">
+<h2>Evaluación de Profesores</h2>
+<p>Participa en el proceso de evaluación docente institucional.</p>
+<a href="EvaluacionesProfesores.html" class="btn">Ingresar</a>
+</div>
+</section>
+<footer>
+<div class="footer-container">
+<div>
+<h3>Portal Escolar</h3>
+<p>Sistema de acceso a trámites escolares y administrativos.</p>
+</div>
+<div>
+<h3>Contacto</h3>
+<p>Correo: soporte@universidad.edu.mx</p>
+<p>Tel: (55) 0000 0000</p>
+</div>
+<div>
+<h3>Horario</h3>
+<p>Lunes a Viernes</p>
+<p>08:00 AM - 06:00 PM</p>
+</div>
+</div>
+<div class="copy">
+© 2026 Portal del Alumno - Todos los derechos reservados
+</div>
+</footer>
+</body>
+</html>
