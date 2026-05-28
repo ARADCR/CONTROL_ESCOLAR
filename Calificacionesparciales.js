@@ -1,5 +1,3 @@
-// control-calificaciones.js
-
 // 1. Datos iniciales (State)
 let alumnos = [
     { id: 1, nombre: "Ana Martínez", p1: 8.5, p2: 9.0, p3: 9.5 },

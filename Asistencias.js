@@ -1,5 +1,4 @@
-// Asistencias.js
-
+// 1. Datos iniciales con registro de asistencias (State)
 // 1. Datos iniciales con registro de asistencias (State)
 let alumnosAsistencias = [
     { id: 1, nombre: "Ana Martínez", asistencias: 14, faltas: 1, retardos: 1 },

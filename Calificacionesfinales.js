@@ -1,5 +1,3 @@
-// Calificacionesfinales.js
-
 // 1. Datos iniciales orientados a fin de curso (State)
 let alumnosFinales = [
     { id: 1, nombre: "Ana Martínez", promedioParciales: 8.7, examenFinal: 9.0 },
